@@ -7,8 +7,8 @@ node_modules/
 /coverage
 
 # next.js
-/.next
-/out
+/.next/
+/out/
 
 # production
 /build
@@ -34,7 +34,8 @@ yarn-error.log*
 next-env.d.ts
 
 # react native
-.expo*
+.expo/
+.expo-shared/
 dist/
 npm-debug.*
 *.jks
